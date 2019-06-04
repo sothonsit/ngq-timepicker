@@ -12,7 +12,8 @@ const NGQ_TIMEPICKER_VALUE_ACCESSOR = {
 
 export const BASE_OPTION = {
   defaultTime: false,
-  showMeridian: false
+  showMeridian: false,
+  template: false
 } as TimepickerOptions;
 
 @Component({
@@ -74,11 +75,6 @@ export class NgqTimepickerComponent implements ControlValueAccessor, AfterViewIn
     if (!value) {
       this.value = null;
       this.propagateChange(this.value);
-    } else {
-      if (this.jQueryElement) {
-        this.jQueryElement.timepicker('remove');
-        this.initTimePicker();
-      }
     }
   }
 

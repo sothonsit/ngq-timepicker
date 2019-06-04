@@ -5,10 +5,11 @@
       <div class="form-group">
         <label class="col-sm-2 control-label">Time</label>
         <div class="col-sm-4">
-          <ngq-timepicker formControlName="time" [opts]="opts"></ngq-timepicker>
+          <ngq-timepicker formControlName="time"></ngq-timepicker>
         </div>
       </div>
     </form>
   </div>
 </div>
 <br> FormGroup: Raw Value {{ fg.getRawValue() | json }}
+<button [disabled]="fg.invalid">submit</button>

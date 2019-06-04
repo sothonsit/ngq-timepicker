@@ -1,6 +1,19 @@
 {
   "name": "ngq-timepicker",
-  "version": "0.0.3",
+  "version": "0.0.4",
+  "description": "Bootstrap TimePicker for Angular",
+  "license": "MIT",
+  "keywords": [
+    "angular",
+    "jquery",
+    "bootstrap",
+    "time",
+    "picker"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/sothonsit/ngq-timepicker"
+  },
   "peerDependencies": {
     "@angular/common": "^7.2.0",
     "@angular/core": "^7.2.0"

@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import { FormControl, FormGroup } from '@angular/forms';
+import { FormControl, FormGroup, Validators } from '@angular/forms';
 @Component({
   selector: 'app-root',
   templateUrl: './app.component.html',
@@ -17,7 +17,7 @@ export class AppComponent implements OnInit {
 
   ngOnInit() {
     this.fg = new FormGroup({
-      time: new FormControl('12'),
+      time: new FormControl('', [Validators.required]),
     });
   }
 }
