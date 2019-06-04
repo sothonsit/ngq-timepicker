@@ -1,13 +1,29 @@
 {
   "name": "ngq-timepicker-app",
   "version": "0.0.0",
+  "description": "Bootstrap TimePicker for Angular",
+  "license": "MIT",
+  "keywords": [
+    "angular",
+    "jquery",
+    "bootstrap",
+    "time",
+    "picker"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/sothonsit/ngq-timepicker"
+  },
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
     "build": "ng build",
     "test": "ng test",
     "lint": "ng lint",
-    "e2e": "ng e2e"
+    "e2e": "ng e2e",
+    "build_lib": "ng build ngq-timepicker",
+    "npm_pack": "cd dist/ngq-timepicker && npm pack",
+    "package": "npm run build_lib && npm run npm_pack"
   },
   "private": true,
   "dependencies": {
