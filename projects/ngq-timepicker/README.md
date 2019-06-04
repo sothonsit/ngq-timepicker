@@ -1,24 +1,30 @@
 # NgqTimepicker
 
-This library was generated with [Angular CLI](https://github.com/angular/angular-cli) version 7.2.0.
+Bootstrap TimePicker Using Jquiry for Angular
 
-## Code scaffolding
+## Usage
 
-Run `ng generate component component-name --project ngq-timepicker` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module --project ngq-timepicker`.
-> Note: Don't forget to add `--project ngq-timepicker` or else it will be added to the default project in your `angular.json` file. 
+* `npm install --save ngq-timepicker`
+* `npm install bootstrap-timepicker --save`
+* `npm install @types/bootstrap-timepicker --save`
 
-## Build
+```
+"styles": [
+  "node_modules/bootstrap/dist/css/bootstrap.min.css",
+  "node_modules/bootstrap-timepicker/css/bootstrap-timepicker.min.css",
+  "src/styles.css"
+],
+"scripts": [
+  "node_modules/bootstrap-timepicker/js/bootstrap-timepicker.min.js"
+]
+```
 
-Run `ng build ngq-timepicker` to build the project. The build artifacts will be stored in the `dist/` directory.
+* Add NgqTimepickerModule to your app module's
+* import { NgqTimepickerModule } from 'ngq-timepicker';
 
-## Publishing
 
-After building your library with `ng build ngq-timepicker`, go to the dist folder `cd dist/ngq-timepicker` and run `npm publish`.
+## Dependencies (for development)
 
-## Running unit tests
+* `npm install jquery --save`
+* `npm install @types/jquery --save`
 
-Run `ng test ngq-timepicker` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
