@@ -12,8 +12,7 @@ const NGQ_TIMEPICKER_VALUE_ACCESSOR = {
 
 export const BASE_OPTION = {
   defaultTime: false,
-  showMeridian: false,
-  template: false
+  showMeridian: false
 } as TimepickerOptions;
 
 @Component({

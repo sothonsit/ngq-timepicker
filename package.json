@@ -1,6 +1,6 @@
 {
   "name": "ngq-timepicker-app",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "Bootstrap TimePicker for Angular",
   "license": "MIT",
   "keywords": [
@@ -21,10 +21,10 @@
     "test": "ng test",
     "lint": "ng lint",
     "e2e": "ng e2e",
-    "build_lib": "ng build ngq-timepicker",
-    "npm_pack": "cd dist/ngq-timepicker && npm pack",
-    "package": "npm run build_lib && npm run npm_pack",
-    "npm": "npm publish dist/ngq-timepicker"
+    "build-lib": "ng build ngq-timepicker",
+    "npm-pack": "cd dist/ngq-timepicker && npm pack",
+    "package": "npm run build-lib && npm run npm-pack",
+    "npm-publish": "npm publish dist/ngq-timepicker"
   },
   "private": true,
   "dependencies": {

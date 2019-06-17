@@ -12,7 +12,6 @@ export class AppComponent implements OnInit {
   opts = {
     defaultTime: false,
     showMeridian: false,
-    explicitMode: false
   };
 
   ngOnInit() {
